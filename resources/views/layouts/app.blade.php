@@ -10,8 +10,10 @@
 </head>
 
 <body>
-    <h1>@yield('title')</h1>
-    <div>@yield('content')</div>
+    <div class="container">
+        <h1>@yield('title')</h1>
+        <div>@yield('content')</div>
+    </div>
 </body>
 
 </html>

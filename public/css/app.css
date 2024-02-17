@@ -1,6 +1,8 @@
 body {
     padding: 30px 60px;
     font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -10,6 +12,10 @@ h1 {
 a {
     text-decoration: none;
     text-decoration-color: none;
+}
+
+.container {
+    width: 60%;
 }
 
 .tasklist {
